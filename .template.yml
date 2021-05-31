@@ -1,0 +1,44 @@
+output_dir: .
+
+clear_top_level: true
+logical_grouping: true
+
+collections:
+    - common
+    - purescript
+
+loader_paths:
+    - docs
+
+render_context:
+    project:
+        project_name: purescript-assert-multiple
+        version: 0.1.0
+
+        verbose_name: PureScript assert multiple
+        description: Chain assertions contained in a monad.
+
+        repository: https://github.com/JoelLefkowitz/purescript-assert-multiple
+        codacy_id: e554a1597f8b40d9b7e54d7923c2049f
+
+        inserts:
+            - usage.md
+
+    author:
+        author: Joel Lefkowitz
+        author_email: joellefkowitz@hotmail.com
+        author_github_handle: joellefkowitz
+
+    package:
+        is_pursuit_package: true
+        package_name: assert-multiple
+
+    portfolio:
+        is_portfolio: true
+        status_level: 1
+
+        languages:
+            - PureScript
+
+        paradigms:
+            - Functional programming
