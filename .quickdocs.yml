@@ -1,5 +1,5 @@
 project: purescript-assert-multiple
-version: 0.1.0
+version: 0.2.0
 author: Joel Lefkowitz
 verbose_name: PureScript assert multiple
 html_title: PureScript assert multiple 
