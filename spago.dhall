@@ -1,4 +1,6 @@
 { name = "assert-multiple"
+, license = "MIT"
+, repository = "https://github.com/JoelLefkowitz/purescript-assert-multiple.git"
 , dependencies =
   [ "assert"
   , "console"
