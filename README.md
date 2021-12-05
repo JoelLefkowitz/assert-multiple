@@ -17,6 +17,28 @@ Chain assertions contained in a monad.
 spago install purescript-assert-multiple
 ```
 
+## Motivation
+
+An array of assertions will not be evaluated eagerly:
+
+```purs
+import Test.Assert (assert)
+
+do
+  x <- 1 .. 5
+  pure $ assert (x <= 5)
+```
+
+The 'resolve' function invokes them over a fold.
+
+```purs
+import Test.Assert.Multiple (resolve)
+
+resolve do
+  x <- 1 .. 5
+  pure $ assert (x <= 5)
+```
+
 ## Tests
 
 To run tests:
