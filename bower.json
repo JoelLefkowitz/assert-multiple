@@ -1,0 +1,28 @@
+{
+  "name": "purescript-assert-multiple",
+  "version": "0.2.0",
+  "description": "Chain assertions contained in a monad.",
+  "homepage": "https://github.com/JoelLefkowitz/purescript-assert-multiple",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JoelLefkowitz/purescript-assert-multiple"
+  },
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "node_modules",
+    "output",
+    "test",
+    "bower.json",
+    "package.json"
+  ],
+  "devDependencies": {
+    "purescript-assert": "^5.0.0",
+    "purescript-debug": "^5.0.0",
+    "purescript-psci-support": "^5.0.0"
+  },
+  "dependencies": {
+    "purescript-foldable-traversable": "^5.0.1"
+  }
+}

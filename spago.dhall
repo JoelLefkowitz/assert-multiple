@@ -1,18 +1,10 @@
-{ name = "assert-multiple"
+{ name = "purescript-assert-multiple"
+, version = "0.2.0"
+, repository = "https://github.com/JoelLefkowitz/purescript-assert-multiple"
 , license = "MIT"
-, repository = "https://github.com/JoelLefkowitz/purescript-assert-multiple.git"
-, dependencies =
-  [ "assert"
-  , "console"
-  , "debug"
-  , "effect"
-  , "exceptions"
-  , "node-fs"
-  , "ordered-collections"
-  , "psci-support"
-  , "strings"
-  , "stringutils"
-  ]
+, dependencies = 
+    [ "prelude"
+    ]
 , packages = ./packages.dhall
-, sources = [ "src/**/*.purs", "test/**/*.purs" ]
+, sources = [ "src/**/*.purs" ]
 }

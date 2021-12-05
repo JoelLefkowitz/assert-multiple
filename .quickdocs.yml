@@ -1,6 +1,7 @@
 project: purescript-assert-multiple
 version: 0.2.0
 author: Joel Lefkowitz
-verbose_name: PureScript assert multiple
-html_title: PureScript assert multiple 
+verbose_name: PureScript Assert Multiple
+html_title: PureScript Assert Multiple
 github_url: https://github.com/JoelLefkowitz/purescript-assert-multiple
+apidoc_module_dir: src
