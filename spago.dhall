@@ -3,7 +3,8 @@
 , repository = "https://github.com/JoelLefkowitz/purescript-assert-multiple"
 , license = "MIT"
 , dependencies = 
-    [ "prelude"
+    [ "foldable-traversable"
+    , "prelude"
     ]
 , packages = ./packages.dhall
 , sources = [ "src/**/*.purs" ]
