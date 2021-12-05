@@ -24,6 +24,8 @@
   "devDependencies": {
     "purescript-assert": "^5.0.0",
     "purescript-debug": "^5.0.0",
-    "purescript-psci-support": "^5.0.0"
+    "purescript-psci-support": "^5.0.0",
+    "purescript-exceptions": "^5.0.0",
+    "purescript-arrays": "^6.0.1"
   }
 }
