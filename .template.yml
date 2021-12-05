@@ -13,7 +13,7 @@ render_context:
   project:
     name: purescript-assert-multiple
     description: Chain assertions contained in a monad.
-    version: 0.2.0
+    version: 0.2.1
     verbose_name: PureScript Assert Multiple
     repository: https://github.com/JoelLefkowitz/purescript-assert-multiple
     codacy_id: e554a1597f8b40d9b7e54d7923c2049f
