@@ -17,9 +17,9 @@ Chain assertions contained in a monad.
 bower install purescript-assert-multiple
 ```
 
-## Motivation
+## Usage
 
-An array of assertions will not be evaluated eagerly:
+Normally, an array of assertions will not be evaluated eagerly:
 
 ```purs
 import Test.Assert (assert)
@@ -29,7 +29,7 @@ do
   pure $ assert (x <= 5)
 ```
 
-The 'resolve' function invokes them over a fold.
+`resolve` will fold and invoke them sequentially.
 
 ```purs
 import Test.Assert.Multiple (resolve)
