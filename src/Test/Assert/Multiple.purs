@@ -1,7 +1,6 @@
 module Test.Assert.Multiple where
 
 import Prelude
-
 import Data.Foldable (class Foldable, foldl)
 import Effect (Effect)
 
