@@ -1,0 +1,14 @@
+{
+  "name": "assert-multiple",
+  "description": "Chain assertions contained in a monad.",
+  "version": "0.2.1",
+  "license": "MIT",
+  "location": {
+    "githubOwner": "joellefkowitz",
+    "githubRepo": "assert-multiple"
+  },
+  "dependencies": {
+    "foldable-traversable": "^5.0.1",
+    "prelude": "^5.0.1"
+  }
+}
