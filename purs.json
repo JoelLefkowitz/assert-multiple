@@ -1,7 +1,7 @@
 {
   "name": "assert-multiple",
   "description": "Chain assertions contained in a monad.",
-  "version": "0.3.6",
+  "version": "0.3.7",
   "license": "MIT",
   "owners": [{
     "email": "joel@Joels-MacBook.local",
