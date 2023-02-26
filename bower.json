@@ -27,7 +27,7 @@
     "purescript-prelude": "^5.0.1"
   },
   "devDependencies": {
-    "purescript-arrays": "^6.0.1",
+    "purescript-arrays": "^6.0.0",
     "purescript-assert": "^5.0.0",
     "purescript-debug": "^5.0.0",
     "purescript-exceptions": "^5.0.0",
