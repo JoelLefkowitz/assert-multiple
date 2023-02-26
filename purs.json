@@ -13,6 +13,6 @@
     "githubRepo": "purescript-assert-multiple"
   },
   "dependencies": {
-    "foldable-traversable": "^>=5.0.0 <6.0.0"
+    "foldable-traversable": ">=5.0.0 <6.0.0"
   }
 }
