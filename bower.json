@@ -1,7 +1,7 @@
 {
   "name": "assert-multiple",
   "description": "Chain assertions contained in a monad.",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "homepage": "https://github.com/JoelLefkowitz/assert-multiple",
   "license": "MIT",
   "repository": {
