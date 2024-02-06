@@ -2,7 +2,7 @@ package:
   name: assert-multiple
   description: Chain assertions contained in a monad.
   publish:
-    version: 0.3.7
+    version: 0.3.8
     license: MIT
     location:
       githubOwner: joellefkowitz
