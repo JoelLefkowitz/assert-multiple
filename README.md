@@ -6,7 +6,7 @@ Chain assertions contained in a monad.
 ![Version](https://pursuit.purescript.org/packages/purescript-assert-multiple/badge)
 ![Quality](https://img.shields.io/codacy/grade/e554a1597f8b40d9b7e54d7923c2049f)
 
-## Installation
+## Installing
 
 ```bash
 spago install assert-multiple
