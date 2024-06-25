@@ -1,4 +1,4 @@
-module Test.Main where
+module Test.Test.Assert.Multiple where
 
 import Prelude
 import Data.Array (range)
@@ -11,17 +11,9 @@ infix 8 range as ..
 
 main :: Effect Unit
 main = do
-  testPass
-  testFail
-
-testPass :: Effect Unit
-testPass =
   resolve do
     x <- 1 .. 5
     pure $ assert (x <= 5)
-
-testFail :: Effect Unit
-testFail =
   catchException (\x -> assert $ message x == "Assertion failed")
     $ resolve do
         x <- 1 .. 10

@@ -4,7 +4,7 @@ import Prelude
 import Data.Foldable (class Foldable, foldl)
 import Effect (Effect)
 
-resolve :: forall m. Monad m => Foldable m => m (Effect Unit) -> Effect Unit
+resolve :: ∀ m. Monad m => Foldable m => m (Effect Unit) -> Effect Unit
 resolve arr = foldl res mempty arr
   where
   res acc x = do
